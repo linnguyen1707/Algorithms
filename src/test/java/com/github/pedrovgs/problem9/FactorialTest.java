@@ -99,4 +99,9 @@ public class FactorialTest {
 
     assertEquals(5040, result);
   }
+  @Test public void factorialOfSevenEqualsTo5040TailRecursive() {
+    int result = factorial.getTailRecursive(10);
+
+    assertEquals(3628800, result);
+  }
 }
